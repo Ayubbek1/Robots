@@ -52,6 +52,7 @@
             padding-right: 30px;
             width: 400px;
             padding: 10px;
+            
         }
         .block{
             display: flex;
@@ -70,6 +71,9 @@
             margin: 20px 0;
             background: center center / cover no-repeat ;
         }
+        p{
+            color: #929292;
+        }
     </style>
 </head>
 <body>
@@ -78,13 +82,13 @@
         <div class="inputs">
             <div class="name">
                 <p>Имя</p>
-                <input placeholder="Имя" type="text">
+                <input id="name" placeholder="Имя" type="text">
             </div>
             <div class="">
                 <p>Age</p>
-                <input placeholder="Возраст" type="number">
+                <input id="age" placeholder="Возраст" type="number">
             </div>
-            <button>ДОБАВИТЬ</button>
+            <button id="add">ДОБАВИТЬ</button>
         </div>
         <div class="items">
             <div class="item">
